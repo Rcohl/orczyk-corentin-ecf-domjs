@@ -1,6 +1,7 @@
 const notes = document.querySelectorAll(".case");
 const toggleButton = document.getElementById("toggleButton");
 const checkMode = document.getElementById("checkMode");
+// création d'un tableau avec les 4 couleurs, si un jour on doit ajouter une nouvelle couleur
 const colors = ["green", "yellow", "orange", "red"];
 let mode = 0;
 
@@ -124,7 +125,7 @@ notes.forEach((element) => {
       }
     }
 
-    // teste des notes touches &é"'(  
+    // teste des notes touches &é"'(
     if (mode == 1) {
       let noteResults = regexNote.test(element.value);
       switch (element.value) {
