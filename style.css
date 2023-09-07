@@ -1,0 +1,94 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  height: 100dvh;
+  width: 100dvw;
+  background: linear-gradient(45deg, #d4fc78, #99e5a2);
+}
+
+tr {
+  width: 80%;
+}
+
+td {
+  border: solid 1px black;
+  padding: 5px 0;
+  width: 50%;
+}
+
+table {
+  width: 80%;
+  text-align: center;
+  border: solid black 1px;
+  margin-bottom: 10px;
+  background-color: rgba(200, 200, 200, 0.2);
+}
+
+input {
+  width: 5em;
+  height: 2em;
+  text-align: center;
+  padding: 10px;
+  font-size: 16px;
+}
+
+#main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100dvh;
+}
+
+#toggleButton {
+  width: auto;
+  padding: 3px;
+  border-radius: 20px;
+}
+
+#toggleButton:hover {
+  background-color: #99e5a2 ;
+}
+
+#checkMode {
+  font-size: 16px;
+}
+
+#headerText {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 25dvh;
+  align-items: center;
+}
+
+#tableNote {
+  height: 75dvh;
+  width: 70%;
+  display: flex;
+  justify-content: center;
+}
+
+
+/* class couleur pour les attribuer aux notes */
+
+.green {
+  background-color: green;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.red {
+  background-color: red;
+}
